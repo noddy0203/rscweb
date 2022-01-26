@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+.leftsyde{
+    background-color: rgb(172, 174, 177);
+  
+}
+.parentDiv{
+    height: 500px;
+}
+.headers{
+    padding-bottom: 10px;
+}
+
+h3{
+    border-bottom: 1px solid rgb(172, 174, 175);    
+    width: 35%;
+}
+
+label{
+    width: 20%;
+}
+
+input{
+    width: 30%;
+   transition: 0.2s all ease-in;
+}
+
+.timeZone, .countryCode, .grades{
+    width: 30%;
+    transition: 0.2s all ease-in;
+}
+
+input:hover{
+    background-color: rgb(214, 217, 219);
+}
+.timeZone:hover, .countryCode:hover, .grades:hover{
+    background-color: rgb(214, 217, 219);
+}
+
+.submitButton{
+    width: 50%;
+    padding: 4px;
+    border: none;
+    background-color: rgb(40, 150, 240);
+}
